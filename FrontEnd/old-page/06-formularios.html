@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - FORMULARIO FALE CONOSCO</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/style01.css">
+
+	</head>
+	<body>
+		<header>
+			<img class="banner" src="./anexos/title.png" alt="fundo cabeçalho">
+		</header>
+		<section>
+			<nav class="navegacao">
+				<img src="./anexos/menu.wordart.png" alt="Tópico Aulas">
+				<ul>
+					<li><a href="daniel-bazana-homepage02.html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h2>Contato</h2>
+				<p>Preencha campos abaixo</p>
+				<form method="post">
+				<div class="alinhado">
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</div>
+				<div class="alinhado">
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+				</div>
+				<div class="alinhado">
+					<label for="mensagem">Mensagem</label>
+					<textarea name="mensagem" id="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>	
+				</div>
+				<div class="alinhado">
+					<label class="label01">Quais linguagens você prefere?</label>
+					<span>
+					<input type="radio" name="linguagens" value="html"> HTML
+					<input type="radio" name="linguagens" value="css"> CSS
+					<input type="radio" name="linguagens" value="javascript"> JavaScript
+					</span>
+				</div>
+				<div class="alinhado">
+					<label class="label01">Quais linguagens você sabe?</label>
+					<span>
+					<input type="radio" name="linguagens" value="html"> HTML
+					<input type="radio" name="linguagens" value="css"> CSS
+					<input type="radio" name="linguagens" value="javascript"> JavaScript
+					</span>
+				</div>
+				<div class="alinhado">
+					<label class="label01">Qual sua cor favorita?</label>
+					<select class="dropdown">
+						<option value="blank"></option>
+						<option value="Azul">Azul</option>
+						<option value="Verde">Verde</option>
+						<option value="Vermelho">Vermelho</option>
+					</select>
+				</div>
+				<div class="alinhado">
+					<input type="submit" class="submit">
+				</div>									
+				</form>			
+			</article>			
+		</section>
+		<footer>
+			<p class="footer">Redes Sociais<br>
+				<a href="https://www.twitch.tv/denielz_" target="_blank"><img src="./anexos/twitch.png" alt="Botão Twitch" width="35"></a>
+				<a href="https://www.instagram.com/where_is_dnlz" target="_blank"><img src="./anexos/insta.png" alt="Botão instagram" width="35"></a>
+				<a href="https://www.linkedin.com/in/danielbzn/" target="_blank"><img src="./anexos/linkedin.png" alt="Botão LinkedIn" width="35"></a><br>
+				<a>Desenvolvido por Daniel Bazana</a>
+			</p>			
+		</footer>
+	</body>
+</html>

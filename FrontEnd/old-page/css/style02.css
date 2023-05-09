@@ -1,0 +1,196 @@
+@import url('tabelas02.css');
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: cursive;
+	font-size: 20px;
+	/*font-size: 62,5%;*/ /* equivalente a 10px mas adaptavel a varios dispositivos, não fixo */
+}
+
+body {
+   background-image: linear-gradient(to top left,#cc6c86,#cc3a60);
+   margin-bottom: 90px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+p, h2, h3 {
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+
+.banner {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20vh;
+}
+
+.navegacao {
+	display: block;
+	width: 12rem;
+}
+
+.navegacao img {
+	display: flex;
+	justify-content: center;
+	width: 15vh;
+}
+
+.avatar {
+	display: block;
+	width: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.meme {
+	display: block;
+	width: 40vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twitch {
+	text-decoration: line-through;
+	font-weight: bold;
+	color: #6441a5;
+}
+
+.igjob {
+	text-decoration: underline;
+}
+
+.footer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*height: 10vh;*/
+}
+
+.footer img {
+	display: inline-block;
+	width: 35px;
+}
+
+.alinhado {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.label01 {
+	text-align: center;
+}
+
+.dropdown {
+	text-align: center;
+	height: 2.5vh;
+	width: 10vw;
+	border-radius: 3px;
+}
+
+.submit {
+	height: 5vh;
+	width: 15vw;
+	border-radius: 50px;
+	border: 3px solid deeppink;
+}
+
+.tabelinha {
+	display: flex;
+	flex-direction: column;
+}
+
+#nome {
+	border-radius: 3px;
+}
+
+#email {
+	border-radius: 3px;
+}
+
+#mensagem {
+	border-radius: 3px;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	/*position: absolute;
+	float: left;*/
+	height: auto;
+	min-height: 80vh;
+	background: rgb(125, 91, 110, 0.5);
+	padding: 20px;
+	color: #fff;
+}
+nav ul {
+	color: #fff;
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	color: #fff;
+	padding: 20px;
+}
+
+/*section {
+	display: block;
+	align-items: center;
+}*/
+
+form div {
+	width: 70vw;
+	border-bottom: 1px solid white;
+	/*margin-left: 12rem;*/
+	padding: 1rem;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 50%;
+	font-size: 15px;
+	padding-top: .3vh;
+	padding-bottom: .3vh;
+}
+
+label {
+	font-size: 20px;
+	margin: 0;	
+}
+
+span {
+	font-size: 18px;
+}
+
+footer {
+	height: 90px;
+	width: 100%;
+	position: fixed; bottom: 0px;
+	background-image: linear-gradient(to bottom right,#cc6c86,#cc3a60);
+}
+

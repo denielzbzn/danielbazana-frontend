@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layouts-fluidos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Layouts Fluidos</h1>
+    <p>Adapta a largura da tela</p>
+
+    <section>
+        <h2>100% width / largura</h2>
+
+        <div class="width-100">
+
+            <nav class="navegacao">
+                <img src="./anexos/menu.wordart.png" alt="Tópico Aulas">
+                <ul>
+                    <li><a href="daniel-bazana-homepage02.html">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <article>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis aliquid consequuntur quibusdam nisi nulla in beatae voluptate eius voluptatibus id dignissimos rem quidem, fugiat sit, quos voluptates aut mollitia dolorum!
+            
+                <div class="fixed-width">
+                    largura fixa
+                </div>
+
+                <div class="background">
+                    Repetir imagem na horizontal
+                </div>
+            
+                <div>
+                    <picture>
+                        <source media="(min-width: 650px)" srcset="./images/coffee.jpg"> <!--imagem desktop-->
+                        <source media="(min-width: 460px)" srcset="./images/coffee-square.jpg"> <!--imagem tablet-->
+                        <img srcset="./images/coffee-sm.jpg" alt="Imagem do copo de café" style="width: auto;">
+                        <!--imagem para smart-->
+                    </picture>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

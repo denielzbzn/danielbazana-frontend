@@ -1,0 +1,538 @@
+/* INPUTS */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+    font-family: freepixel;
+    src: url(../anexos/fonts/FreePixel.ttf) format('truetype');
+}
+
+
+/* CORE */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;   
+}
+
+div {
+    margin: 0px auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(254, 197, 156, 0.75 ) 75%, rgba(255, 72, 71, 0.85));
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.banner {
+    display: flex;
+    width: 100%;    
+}
+
+
+/* BODY */
+#container {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    color: #242424;
+}
+
+
+/* MENU */
+nav {
+    height: 100%;
+    width: 20%;
+    float: left;
+    margin-left: 5px;
+    background-color: rgba(36, 36, 36, 0.1);
+}
+
+.navegação {
+    border: 2px solid rgba(36, 36, 36, 0.5);
+    border-radius: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'freepixel';
+    font-size: 6vw;
+    color: #fff;
+    text-shadow: -0.3vw 0.14vw #ff0000;
+}
+
+ul {
+    padding: 10px;
+    text-align: center;
+    list-style-type: none; 
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.menu-01 {
+    color: #fff; 
+    font-size: 1.83vw;
+    font-weight: bold;
+    text-decoration: none;
+    min-width: 1vw;
+}
+
+a {
+    margin: 0px auto;
+    text-decoration: none;
+}
+
+
+/* CONTENT-HOMEPAGE */
+.conteudo {
+    flex: 1 1;
+}
+
+#avatar {
+    background-color: transparent;
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#avatar img {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    display: block;
+    text-align: center;
+}
+
+li {
+    text-shadow: -1px 1px rgba(36, 36, 36, 0.8);
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+.tag {
+    margin-top: 25px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.tag01 {
+    padding: 1.13%;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid rgba(36, 36, 36, 0.5);
+    border-radius: 40px;
+}
+
+.text-01 {
+    margin: 30px 30px 0px 30px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: rgba(36, 36, 36, 0.5);
+    padding-top: 10px;
+    margin: 12px 12px 12px 12px;
+    padding-left: 1px;
+}
+
+p {
+    padding-bottom: 5px;
+    margin: 12px 12px 12px 12px;
+    font-size: 22px;
+}
+
+.enfase {
+    font-size: 25px;
+    font-family: "freepixel";
+    color: #fff;
+    text-shadow: -2px 2px #ff0000;
+}
+
+
+/* CONTENT-PG01-CURRICULO */
+.name-cv {
+    margin: 30px 30px 30px 30px;
+    display: block;
+    text-align: center;
+}
+
+.conteudo-cv {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px 0px 30px;
+}
+
+.index {
+    width: 20%;
+    margin: 18px 12px 0px 12px;
+    padding-top: 5px;
+    font-size: 18px;
+    border-top: 1px solid;   
+}
+
+.text-02 {
+    width: 75%;    
+}
+
+.p01 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.p02 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.p03 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+/* CONTENT-PG02-LINKS */
+.index-01 {
+    width: 100%; 
+    margin: 18px 12px 12px 12px;
+    padding-top: 5px;
+    font-size: 25px;
+    border-bottom: 1px solid;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 30px; 
+}
+
+
+/* CONTENT-PG03-CONTATO */
+.avatarx {
+    background-color: transparent;
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatarx img {
+    display: block;
+    width: 100%;
+}
+
+.contato {
+    width: 100%;
+}
+
+.campo01 {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    border-bottom: 1px solid rgba(36, 36, 36, 0.5);
+    /*margin-left: 0px;
+    width: 75%;*/
+}
+
+.campo02 {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    
+}
+
+#nome {
+	padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid rgba(36, 36, 36, 0.5);
+    border-radius: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#email {
+	padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid rgba(36, 36, 36, 0.5);
+    border-radius: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#mensagem {
+	padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid rgba(36, 36, 36, 0.5);
+    border-radius: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form div {
+	width: 100vw;
+	padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 50%;
+	font-size: 15px;
+	padding-top: .3vh;
+	padding-bottom: .3vh;
+    margin: 0 auto;
+}
+
+input {
+    margin: 0 auto;
+}
+
+label {
+	font-size: 20px;
+	margin: 0 auto;	
+}
+
+textarea {
+    margin: 0 auto;
+}
+
+.send {
+    width: 100%;
+}
+
+.submit {
+	width: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	border-radius: 50px;
+	border: 3px solid rgba(36, 36, 36, 0.5);
+    margin: 0 auto;
+}
+
+
+/* FOOTER */
+footer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(36, 36, 36, 0.5);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    color: #242424;
+}
+
+footer p {
+    font-size: medium;
+}
+
+
+/* MEDIA QUERY*/
+
+/* TABLET */
+@media (max-width: 768px) {
+    
+    h4 {
+        margin: 12px 10px 12px 10px;
+        padding: 0;
+        font-size: 18px;
+    }
+    #avatar {
+        /*float: left;*/
+        width: 150px;
+        height: 150px;
+        /*margin-left: 20px;*/
+        
+    }
+    .name {
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+    .enfase {
+        font-size: 23px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        padding: 0;
+        font-size: 20px;
+    }
+    .name-cv {
+        margin: 20px auto;
+    }
+    .conteudo-cv {
+        margin: 15px 30px 0px 30px;
+    }
+    .tag {
+        flex-direction: column;
+    }
+    .tag01 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .tagx {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 30px 10px 30px;
+    }
+    .text-01 {
+        margin: 20px 20px 0px 20px;
+    }
+    .index {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        margin: 12px 12px 6px 12px;
+    }
+    .text-02 {
+        width: 100%;
+    }
+    p {
+        padding-bottom: 3px;
+        margin: 12px 10px 12px 10px;
+        font-size: 20px;
+    }
+    .index-01 {
+        width:90%; 
+        font-size: 20px;
+    }
+    .icons {
+        float: left;
+        margin: -60px;
+        scale: 65%;
+    }
+    .avatarx {
+        width: 150px;
+        height: 150px;      
+    }
+    form div {
+        width: 70vw;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 425px) {
+    #container {
+        display: block;
+    }
+    nav {
+        width: 95%;
+        margin-left: 12px;
+        margin-bottom: 20px;
+        float: unset;
+    }
+    ul {
+        display: flex;
+        padding: 0;
+    }
+    .menu-01 {
+        font-size: 1rem;
+    }
+    h4 {
+        margin: 12px 10px 12px 10px;
+        padding: 0;
+        font-size: 17px;
+    }
+    #avatar {
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+        
+    }
+    .name {
+        text-align: center;
+        margin: 35px 0px 20px 20px;
+    }
+    .enfase {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        padding: 0;
+        font-size: 15px;
+    }
+    .name-cv {
+        float: left;
+        text-align: left;
+        margin: 0px -50px 0px 20px;
+    }
+    .conteudo-cv {
+        margin: 15px 30px 0px 30px;
+    }
+    .tag {
+        flex-direction: column;
+    }
+    .tag01 {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .tagx {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0px 0px 0px;
+    }
+    .index {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        margin: 12px 12px 6px 12px;
+    }
+    .text-02 {
+        width: 100%;
+    }
+    p {
+        padding-bottom: 3px;
+        margin: 12px 10px 12px 10px;
+        font-size: 18px;
+    }
+    .index-01 {
+        width:90%; 
+        font-size: 16px;
+    }
+    .icons {
+        display: flex;
+        float: unset;
+        margin: 0px;
+        scale: 75%;
+    }
+    .avatarx {
+        width: 120px;
+        height: 120px;      
+    }
+    form div {
+        width: 100vw;
+    }
+}

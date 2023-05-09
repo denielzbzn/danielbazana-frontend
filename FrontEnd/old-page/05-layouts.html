@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - LAYOUTS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/*Style the Header */
+			header {
+				background-color: #666;
+				padding: 30px;
+				text-align: center;
+				font-size: 35px;
+				color: white;
+			}
+
+			/* Create two columns/boxes that floats nest to each other */
+			nav {
+				float: left;
+				width: 30%;
+				background: #ccc;
+				padding: 20px;
+			}
+
+			/*Style the list inside the menu */
+			nav ul {
+				list-style-type: none;
+				padding: 0;
+			}
+
+			article {
+				float: left;
+				padding: 20px;
+				width: 70%;
+				background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+				background: #ccc;
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			/*Style the ffoter*/
+			footer {
+				background-color: #777;
+				padding: 10px;
+				text-align: center;
+				color: white;
+			}
+
+			/*Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/
+			@media (max-width: 600px) {
+				nav,article {
+				width: 100%;
+				height: auto;
+				}
+			}
+			</style>
+	</head>
+	<body>
+			<header>
+				<h2>Titulo da página</h2>
+			</header>
+			<section>
+				<nav>
+					<ul>
+						<li><a href="daniel-bazana-homepage02.html">Home</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="./06-formularios.html">Contato</a></li>
+					</ul>
+				</nav>
+				<article>
+					<h1>Titulo Artigo</h1>
+
+					<p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum eu augue eu facilisis. Sed quis mauris erat. Proin eu elit egestas, viverra felis id, mollis lorem. Duis luctus gravida mauris, id euismod libero feugiat mattis. Aliquam ullamcorper elementum ligula et gravida. Sed ultricies tempor auctor. Aliquam laoreet felis ac purus aliquam finibus. Aliquam posuere, ligula sit amet consectetur finibus, quam ex bibendum lorem, et finibus magna ante eu ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin et sapien ante.</p>
+
+					<p align="center">Nunc efficitur at libero eu mattis. Nullam blandit sed orci at rhoncus. Vestibulum lacinia lobortis felis, quis tristique justo fermentum sed. Sed convallis gravida erat. Aliquam placerat feugiat posuere. Morbi vestibulum suscipit sem ac scelerisque. Nam faucibus congue mi eget tristique. Fusce lacinia orci ut finibus hendrerit.</p>
+				</article>			
+			</section>
+		<footer>
+			<p>Desenvolvido por Daniel</p>
+		</footer>
+	</body>
+</html>
